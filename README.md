@@ -19,3 +19,12 @@
 
 ## Full Path Dusclosure rss-functions.php
 https://www.owasp.org/index.php/Full_Path_Disclosure
+
+php.ini:
+```
+display_errors = 'off'
+```
+apache2.conf:
+```
+php_flag  display_errors  off
+```
