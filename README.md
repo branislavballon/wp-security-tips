@@ -1,6 +1,7 @@
 
 ## LIKS
-https://www.acunetix.com/websitesecurity/preventing-wordpress-hack/
+[Acunetix - Top tips to prevent a WordPress hack](https://www.acunetix.com/websitesecurity/preventing-wordpress-hack/)
+[WordPress Username Enumeration Techniques and How to Fix Them](https://medium.com/@ahmed_elhady/wordpress-username-enumeration-techniques-2ca0510df632)
 
 
 
