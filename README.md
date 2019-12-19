@@ -1,5 +1,7 @@
 ## .htaccess
 
+## Disable xmlrpc and readme
+
 ```
 #Block WordPress xmlrpc.php requests
 <Files xmlrpc.php>
@@ -14,3 +16,6 @@
     deny from all
 </files>
 ```
+
+## Full Path Dusclosure rss-functions.php
+https://www.owasp.org/index.php/Full_Path_Disclosure
