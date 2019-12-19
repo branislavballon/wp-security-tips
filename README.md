@@ -1,6 +1,10 @@
-## .htaccess
 
-## Disable xmlrpc and readme
+## LIKS
+https://www.acunetix.com/websitesecurity/preventing-wordpress-hack/
+
+
+
+## .htaccess Disable xmlrpc and readme
 
 ```
 #Block WordPress xmlrpc.php requests
@@ -19,6 +23,7 @@
 
 ## Full Path Dusclosure rss-functions.php
 https://www.owasp.org/index.php/Full_Path_Disclosure
+https://www.acunetix.com/vulnerabilities/web/wordpress-full-path-disclosure/
 
 php.ini:
 ```
@@ -28,3 +33,6 @@ apache2.conf:
 ```
 php_flag  display_errors  off
 ```
+
+## Disable File Editing
+define('DISALLOW_FILE_EDIT', true);
